@@ -26,6 +26,8 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <Link className="nav-link" to="/home">Home</Link>
+                        <Link className="nav-link" to="/calculator">Calculator</Link>
+                        <Link className="nav-link" to="/choice">Choice</Link>
                         <Link className="nav-link" to="/about">About</Link>
                     </div>
                 </div>

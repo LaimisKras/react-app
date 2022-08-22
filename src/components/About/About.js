@@ -6,7 +6,14 @@ import './About.css';
 const About = () => {
   return (
     <div>
+      <br/>
+      <br/>
+      <br/>
       About Component
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 };
