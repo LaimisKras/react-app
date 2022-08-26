@@ -28,7 +28,12 @@ function App() {
               <Route path="*"
                 element={
                   <main style={{ padding: "1rem" }}>
-                    <p>There's nothing here!</p>
+                    <br/>
+                    <br/>
+                    <p>There's nothing here! <br/>
+                    <strong>Choose from the menu, please!</strong>
+                    </p>
+                    <br/>
                   </main>
                 }
               />

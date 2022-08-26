@@ -49,10 +49,9 @@ const PVM = () => {
             
             <label className="form-label"><br/> Total in words: <strong> {words} </strong>  </label> <br/>
 
-            <button className="btn btn-dark btn-sm" onClick={deleteSum}
-              >
-                Delete
-              </button>
+            <button className="btn btn-dark btn-sm" onClick={deleteSum}>
+              Delete
+            </button>
                   
           </form>        
         </div>
