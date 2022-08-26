@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Naujienos 1",
+      "text": "Viskas vyksta super gerai!"
+    },
+    {
+      "title": "Karo 2022 naujienos!",
+      "text": "Viskas nelabai gerai, bet gal bus geriau!!!",
+      "id": 5
+    },
+    {
+      "title": "Naujausios naujienos",
+      "text": "Viskas bus labai gerai!!!",
+      "id": 6
+    },
+    {
+      "title": "Dar naujesnių žinių Jums turiu!!!",
+      "text": "Pavyko informaciją įkelti ir ištrinti iš backend'o!!!",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment1",
+      "postId": 1
+    }
+  ]
+}

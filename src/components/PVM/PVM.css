@@ -1,1 +1,31 @@
-.PVM {}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PVM {
+  text-align: center; 
+}
+
+.box {
+  background: linear-gradient(to right bottom, rgb(237, 248, 77), rgb(243, 115, 92));
+  width: 350px;
+  height: 450px;
+  padding: 30px;
+  position: relative;
+  bottom: 60px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px black;
+}
+
+.form-label {
+  font-weight: bolder;
+}
+
+.name {
+  font-size: 26px;
+  position: relative;
+  bottom: 8px;
+}
+ 

@@ -1,7 +1,20 @@
+.Header {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+}
+
 .bg {
     background: linear-gradient(to right bottom, rgb(237, 248, 77), rgb(243, 115, 92));
 }
 
-img {
-    border-radius: 25px;
+.nav-hov {
+  color: black;
+  margin: 0 10px;  
+}
+
+.nav-hov:hover {
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
 }

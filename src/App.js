@@ -9,6 +9,8 @@ import Calculator from './components/Calculator/Calculator';
 import Choice from './components/Choice/Choice';
 import PVM from './components/PVM/PVM';
 import ToDo from './components/ToDo/ToDo';
+import BlogPosts from './components/BlogPosts/BlogPosts';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
                 <Route path='pvm' element={<PVM />} />
                 <Route path='todo' element={<ToDo />} />
               </Route>
+            <Route path='/blogpost' element={<BlogPosts />} ></Route>
             <Route path='/about' element={<About />} />
               <Route path="*"
                 element={
@@ -30,7 +33,7 @@ function App() {
                 }
               />
         </Routes>
-      <Footer />
+        <Footer />
     </BrowserRouter>
   );
 };

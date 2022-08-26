@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Calculator.css';
 import { useState } from 'react';
 
@@ -52,7 +51,8 @@ const Calculator = () => {
   }
 
   return (
-    <div className='text'><h1>Calculator</h1>
+    <div className='text-calc'>
+      <h1 className='calc-name'>Calculator</h1>
       <div className="App">
         <div className="calculator">
           <div className="display">
@@ -64,7 +64,6 @@ const Calculator = () => {
             <button onClick={() => updateCalc('-')}>-</button>
             <button onClick={() => updateCalc('*')}>*</button>
             <button onClick={() => updateCalc('/')}>/</button>
-
             <button onClick={delbtn}>DEL</button>
           </div>
 
@@ -80,8 +79,5 @@ const Calculator = () => {
   );
 };
 
-Calculator.propTypes = {};
-
-Calculator.defaultProps = {};
 
 export default Calculator;

@@ -1,24 +1,22 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Choice.css';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const Choice = () => (
   <>
     <div className="Choice" data-testid="Choice">
-      Choice Component
     </div>
     <div className="p-5">
       <ul className="nav nav-tabs">
         <li className="nav-item">
-          <Link className="nav-link" to="/choice/PVM">
+          <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}  to="/choice/PVM">
             PVM-Counter
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/choice/ToDo">
+          <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}  to="/choice/ToDo">
             ToDo-List
-          </Link>
+          </NavLink>
         </li>
       </ul>
       <div className="p-5">
@@ -28,8 +26,5 @@ const Choice = () => (
   </>
 );
 
-Choice.propTypes = {};
-
-Choice.defaultProps = {};
 
 export default Choice;
