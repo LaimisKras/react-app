@@ -26,7 +26,7 @@ function App() {
                 </Route>
                   <Route path='/blogpost' element={<BlogPosts />} ></Route>
                     <Route path='/about' element={<About />} />
-                <Route path='/home' element={
+                <Route path='*' element={
                     <main style={{ padding: "1rem" }}>
                       <br/>
                       <br/>
@@ -37,7 +37,6 @@ function App() {
                     </main>
                   }
                 />
-              <Route path='*' element={<Navigate to="/home" />} />
           </Routes>
         <Footer />
     </HashRouter>
