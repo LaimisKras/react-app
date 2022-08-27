@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
@@ -14,7 +14,7 @@ import BlogPosts from './components/BlogPosts/BlogPosts';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
         <Routes>
           <Route path='/home' element={<Home />} />
@@ -39,7 +39,7 @@ function App() {
               />
         </Routes>
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
