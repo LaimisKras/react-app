@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import React from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
@@ -17,26 +17,28 @@ function App() {
     <HashRouter>
       <Header />
         <Routes>
-          <Route path='/home' element={<Home />} />
-            <Route path='/calculator' element={<Calculator />} />
-              <Route path='/choice' element={<Choice />} >
-                <Route path='pvm' element={<PVM />} />
-                <Route path='todo' element={<ToDo />} />
-              </Route>
-            <Route path='/blogpost' element={<BlogPosts />} ></Route>
-            <Route path='/about' element={<About />} />
-              <Route path='/home' element={
-                  <main style={{ padding: "1rem" }}>
-                    <br/>
-                    <br/>
-                    <p>There's nothing here! <br/>
-                    <strong>Choose from the menu, please!</strong>
-                    </p>
-                    <br/>
-                  </main>
-                }
-              />
-        </Routes>
+          <Route path='/' element={<Navigate to="/home" />} />
+            <Route path='/home' element={<Home />} />
+              <Route path='/calculator' element={<Calculator />} />
+                <Route path='/choice' element={<Choice />} >
+                  <Route path='pvm' element={<PVM />} />
+                  <Route path='todo' element={<ToDo />} />
+                </Route>
+                  <Route path='/blogpost' element={<BlogPosts />} ></Route>
+                    <Route path='/about' element={<About />} />
+                <Route path='/home' element={
+                    <main style={{ padding: "1rem" }}>
+                      <br/>
+                      <br/>
+                      <p>There's nothing here! <br/>
+                      <strong>Choose from the menu, please!</strong>
+                      </p>
+                      <br/>
+                    </main>
+                  }
+                />
+              <Route path='*' element={<Navigate to="/home" />} />
+          </Routes>
         <Footer />
     </HashRouter>
   );
