@@ -63,16 +63,16 @@ const Footer = () => {
                 Products
               </h6>
               <p>
-                <a href="#!" className="text-reset">Angular</a>
+              <a href="https://www.w3schools.com/REACT/DEFAULT.ASP" className="text-reset">React</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">React</a>
+              <a href="https://www.w3schools.com/sql/default.asp" className="text-reset">SQL</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Vue</a>
+                <a href="https://www.w3schools.com/php/" className="text-reset">PHP</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Laravel</a>
+                <a href="https://laravel.com/docs/5.1/quickstart" className="text-reset">Laravel</a>
               </p>
             </div>
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -80,16 +80,16 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="#!" className="text-reset">Pricing</a>
+                <a href="http://localhost:3000/calculator" className="text-reset">Pricing</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Settings</a>
+                <a href="http://localhost:3000/home" className="text-reset">Settings</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Orders</a>
+                <a href="http://localhost:3000/choice/PVM" className="text-reset">Orders</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Help</a>
+                <a href="http://localhost:3000/choice/ToDo" className="text-reset">Help</a>
               </p>
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
