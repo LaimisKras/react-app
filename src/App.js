@@ -25,8 +25,7 @@ function App() {
               </Route>
             <Route path='/blogpost' element={<BlogPosts />} ></Route>
             <Route path='/about' element={<About />} />
-              <Route path="*"
-                element={
+              <Route path='/home' element={
                   <main style={{ padding: "1rem" }}>
                     <br/>
                     <br/>
