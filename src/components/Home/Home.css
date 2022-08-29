@@ -1,7 +1,7 @@
 .home {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPouxA0cPBJ0gV_zIX_acnClKeMNmN7079vw&usqp=CAU');
   background-repeat: no-repeat;
-  height: 600px;
+  min-height: 650px;
   z-index: 1;
 }
 
@@ -13,7 +13,8 @@
 h2 {
   text-align: center;
   position: relative;
-  top: 20px;
+  top: 30px;
+  font-weight: bolder;
 } 
 
 .text-box {
@@ -25,6 +26,7 @@ h2 {
 .text {
   max-width: 500px;
   position: relative;
-  top: 50px;
+  top: 10px;
   font-size: 26px;
+  padding: 20px;
 }
