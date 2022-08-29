@@ -80,16 +80,16 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="http://localhost:3000/calculator" className="text-reset">Pricing</a>
+                <a href="https://laimiskras.github.io/react-app/#/calculator" className="text-reset">Pricing</a>
               </p>
               <p>
-                <a href="http://localhost:3000/home" className="text-reset">Settings</a>
+                <a href="https://laimiskras.github.io/react-app/#/home" className="text-reset">Settings</a>
               </p>
               <p>
-                <a href="http://localhost:3000/choice/PVM" className="text-reset">Orders</a>
+                <a href="https://laimiskras.github.io/react-app/#/choice/PVM" className="text-reset">Orders</a>
               </p>
               <p>
-                <a href="http://localhost:3000/choice/ToDo" className="text-reset">Help</a>
+                <a href="https://laimiskras.github.io/react-app/#/choice/ToDo" className="text-reset">Help</a>
               </p>
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
