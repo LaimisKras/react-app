@@ -8,7 +8,7 @@ const Header = () => {
         <div className='Header'>
             <nav className="navbar navbar-expand-lg navbar-light bg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/home">
+                    <a className="navbar-brand" href="https://laimiskras.github.io/react-app/#/home">
                         <img src="https://cdn.svgporn.com/logos/perl.svg"
                             alt=""
                             width="60"
